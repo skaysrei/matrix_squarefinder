@@ -1,1 +1,5 @@
 myapp/node_modules
+pyvenv.cfg
+jack-env
+.gitignore
+api/__pycache__/main.cpython-310.pyc
