@@ -1,4 +1,5 @@
 from fastapi import FastAPI
+import json
 
 app = FastAPI()
 
@@ -10,8 +11,6 @@ def read_root():
 @app.get("/isthere")
 def read_root():
     return "Hello world"
-
-    import json
 
 
 def es40(jsonFile, k):
